@@ -1,0 +1,41 @@
+
+/* Media Querry 800px starts here */
+@media (max-width: 800px){
+    body{
+        width: 100%;
+        margin: 2% auto;
+    }
+    .header-img{
+        display: none;
+    }
+    .middle-img{
+        display: none;
+    }
+    .middle-img-T{
+        display: inline;
+    }
+    .section{
+    padding: 10px;	
+    justify-content: space-evenly;
+}
+.logo{
+    display: none;
+}
+.logo-T{
+    display: flex;
+    justify-content: start;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2%;   
+    margin-bottom: 3%;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    width: 330px;
+    height: 220px;
+}
+}
+/* Media Querry 800px ends here */
