@@ -1,3 +1,175 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+/* ol, ul {
+	list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+} 
+
+/* Your code starts here! */
+
+  
+body {
+	width: 875px;
+	margin: 0 auto;
+	letter-spacing: 1px; 
+	line-height: 1;
+	/* background: white; */
+	/* text-align: justify; */
+}
+
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.nav .item{
+	color: gray;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:link, a:visited {
+	color:gray;;
+	text-decoration: none;
+}
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 50px;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+	margin-top: 0;
+	/* border-top: 1px solid gray; */
+	padding: 20px;
+}
+.button {
+	background-color: white;
+	border: 1px solid black;
+	color: white;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+p{
+	padding: 8px;
+}
+.h2{
+	  font-family: 'bangers', 'cursive';
+	  font-size: 16px;
+	
+  } 
+  
+.section{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	/* column-count: 2; */
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px;	
+}
+.copyright {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+.services-header-img {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 25px
+}
+.header-title{
+	font-family: 'bangers', 'cursive';
+	  font-size: 22px;
+	  padding: 15px;
+}
+.section-services{
+	border-bottom: 1.5px solid black;
+	padding-top: 10px;	
+padding-bottom: 20px;;
+}
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: stretch;
+	justify-content: space-between;
+}
+.box{
+	width: 370px; 
+	height: 220px; 
+	border: 1px solid black;
+	padding: 20px; 
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: #f2f2f2;
+}
+.services-footer-content{
+	width: 370px; 
+	height: 220px; 
+	padding: 20px; 
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.s-footer-line{
+		display: block;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		margin-left: auto;
+		margin-right: auto;
+		border-style: inset;
+		border-width: 1px;
+		color: solid black;
+	  } 
+
+.footer-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: stretch;
+	justify-content: space-between;
+}
+
+ .middle-img-T{
+    display: none;
+}
+.middle-img-M{
+    display: none;
+}
+.logo-T{
+display: none;
+}
